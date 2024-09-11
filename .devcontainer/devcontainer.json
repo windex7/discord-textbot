@@ -7,11 +7,24 @@
 	"features": {
 		"ghcr.io/devcontainers-community/npm-features/typescript:1": {}
 	},
-
-	"dockerComposeFile": [
-		"../docker-compose.yml",
-		"docker-compose.yml"
-	]
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"dbaeumer.vscode-eslint",
+				"mhutchie.git-graph",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"eamodio.gitlens",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"ms-vscode.vscode-typescript-next",
+				"esbenp.prettier-vscode",
+				"ms-python.vscode-pylance",
+				"ms-python.python",
+				"ms-python.debugpy"
+			]
+		}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
