@@ -6,7 +6,12 @@
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
 	"features": {
 		"ghcr.io/devcontainers-community/npm-features/typescript:1": {}
-	}
+	},
+
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
