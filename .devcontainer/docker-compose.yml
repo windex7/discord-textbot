@@ -1,10 +1,1 @@
-version: '3'
-
-services:
-  app:
-    volumes:
-      - vscode_server_volume:/root/.vscode-server
-
-volumes:
-  vscode_server_volume:
-    driver: local
+version: '1.0'
