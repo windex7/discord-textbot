@@ -2,7 +2,7 @@
   "name": "discord-textbot",
   "version": "1.0.0",
   "description": "text bot works on discord.js",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
