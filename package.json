@@ -4,7 +4,12 @@
   "description": "text bot works on discord.js",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "node dist/index.js",
+    "deploy-command": "node dist/deploy-command.js",
+    "reload": "npm run compile && npm run start",
+    "reload-cmd": "npm run compile && npm run deploy-command && npm run start"
   },
   "repository": {
     "type": "git",
